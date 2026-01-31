@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-left span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+}
+
+.nav-p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.nav-bottom {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.realstate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 50px;
+}
+
+.r-s-left p:first-child {
+    color: #2563eb;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.r-s-left h1 {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.r-s-left p {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.r-s-left div {
+    display: flex;
+    gap: 10px;
+}
+
+.r-s-left input {
+    padding: 14px 18px;
+    border-radius: 30px;
+    border: 1px solid #d1d5db;
+    width: 260px;
+}
+
+.quote-button {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 14px 26px;
+    border-radius: 30px;
+}
+
+.step-requir {
+    text-align: center;
+    padding: 80px;
+}
+
+.step-requir p {
+    color: #2563eb;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.step-requir h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.three-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.three-steps div {
+    padding: 30px;
+}
+
+.three-steps h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.three-steps p {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.best-projects {
+    padding: 80px;
+}
+
+.b-p-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.b-p-top h2 {
+    font-size: 32px;
+}
+
+.b-p-top p {
+    color: #2563eb;
+    font-weight: 500;
+}
+
+.b-p-t-left {
+    display: flex;
+    gap: 10px;
+}
+
+.b-p-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.b-p-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.b-p-card h3 {
+    padding: 15px;
+}
+
+.b-p-card p {
+    padding: 0 15px 15px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.booking {
+    padding: 80px;
+}
+
+.booking h2 {
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.book {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.book-left h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.book-left p {
+    color: #6b7280;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.book-button {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.book-now {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.read-more {
+    background-color: transparent;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.rates {
+    display: flex;
+    gap: 40px;
+}
+
+.rates h3 {
+    font-size: 28px;
+    color: #2563eb;
+}
+
+.rates p {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+footer.realstate {
+    background-color: #f9fafb;
+}
